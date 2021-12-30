@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { PasswordComponent } from './password/password.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PasswordComponent
   ],
   imports: [
     BrowserModule,
